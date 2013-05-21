@@ -18,8 +18,6 @@ package
 		public function Main():void 
 		{
 		super(320, 240, Intro, 1.5, 60, 60);
-		
-		
 		addEventListener(Event.ADDED_TO_STAGE, init);
 		
 		forceDebugger = true;
@@ -30,10 +28,7 @@ package
 		private function init(e:Event):void {
 			
 			MochiServices.connect( "0e1abab0824173db", this.parent );
-            
-			
-			
-		}
+            	}
 
 		
 		
