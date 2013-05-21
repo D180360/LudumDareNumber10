@@ -31,6 +31,6 @@ public class Assets  {
 [Embed(source="Player.png")]public static const PlayerIdle:Class;
 [Embed(source = "jump.mp3")]public static const newJumpMP32:Class;
 
-	}
+}
 
 }
