@@ -28,6 +28,8 @@ public class Assets  {
 [Embed(source = "powerup.mp3")]public static const PowerUpMP3:Class;
 [Embed(source = "minus.mp3")]public static const MinusMP3:Class;
 [Embed(source = "meteorsfly.mp3")]public static const FlyMP3:Class;
+[Embed(source="Player.png")]public static const PlayerIdle:Class;
+[Embed(source = "jump.mp3")]public static const newJumpMP32:Class;
 
 	}
 
