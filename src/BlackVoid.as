@@ -4,11 +4,6 @@ package
 	public class BlackVoid extends FlxState
 	{
 		
-		
-		
-		
-		
-		
 		public var counter:Number = 0;
 		public var status:FlxText = null;
 		
@@ -58,7 +53,7 @@ package
 				
 				FlxG.play(Assets.SkipMP3);
 				FlxG.flash(0xffffffff, 0.75);
-                FlxG.fade(0xff000000, 2, changeState);	
+               		        FlxG.fade(0xff000000, 2, changeState);	
 				FlxG.music.stop();
 				FlxG.music.kill();
 			}
@@ -72,7 +67,7 @@ package
 			if (counter > 4 && counter < 8)
 			{
 				status.x = 60;
-			    status.x += 10;
+			        status.x += 10;
 				status.color = 0xFF0000;
 				status.alignment = "center";
 				status.text = "            ..I have arrived for you....";
@@ -95,7 +90,7 @@ package
 			{
 				black.alpha += .01;
 				status.x = 60;
-			    status.velocity.x += 10;
+			        status.velocity.x += 10;
 				status.color = 0xFF0000;
 				status.text = "...Prepare..";
 				status.alignment = "left"
@@ -129,7 +124,7 @@ package
 			{
 				
 				FlxG.flash(0xffffffff, 0.75);
-                FlxG.fade(0xff000000, 2, changeState);
+               		        FlxG.fade(0xff000000, 2, changeState);
 				
 			}
 		}
