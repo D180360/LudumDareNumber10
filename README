@@ -1,6 +1,6 @@
 This was my first Ludum Dare submission. 
 There is little to no abstraction between Flixel and 
-the actual game so beware of lots of boilerplate code. 
+the actual game code so beware of lots of boilerplate code. 
 
 Authored within 48 hours,  April 26-27 2007.
 
